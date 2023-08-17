@@ -1,0 +1,177 @@
+#fish_head{
+	position:absolute;
+	width: 40px;
+	height: 40px;
+	background-color: orange;
+	bottom: 50%;
+	left: 50%;
+	z-index:1;
+	
+}
+
+#zone {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	border:solid;
+	border-color:rgb(0,255,0);
+	border-radius:50%;
+	width:200px;
+	height:200px;
+	z-index:0;
+
+}
+
+/* #background {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: green;
+	image-rendering: pixelated;
+	background-image: url("sandy_tile.png");
+	background-size: 128px 128px;
+	
+} */
+
+#myCanvas {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	
+}
+
+
+#toggleBugs {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	height: 40px;
+	max-height: 40px;
+	line-height:40px;
+	padding: 0px 15px;
+	color: white;
+}
+
+
+#toggleZones {
+	position: fixed;
+	bottom: 50px;
+	left: 10px;
+	height: 40px;
+	max-height: 40px;
+	line-height:40px;
+	padding: 0px 15px;
+	color: white;
+}
+
+
+#clearBugs {
+	position: fixed;
+	bottom: 90px;
+	left: 10px;
+	height: 40px;
+	max-height: 40px;
+	line-height:40px;
+	padding: 0px 15px;
+	color: white;
+}
+
+#clearZones {
+	position: fixed;
+	bottom: 130px;
+	left: 10px;
+	height: 40px;
+	max-height: 40px;
+	line-height:40px;
+	padding: 0px 15px;
+	color: white;
+}
+
+#clearSelected {
+	position: fixed;
+	bottom: 170px;
+	left: 10px;
+	height: 40px;
+	max-height: 40px;
+	line-height:40px;
+	padding: 0px 15px;
+	color: white;
+}
+
+
+
+/* S E L E C T O R   O P T I O N S */
+
+button .disable-dbl-tap-zoom {
+    touch-action: manipulation;
+}
+
+#user-action-1 {
+    position: fixed; 
+    top: 10px; 
+}
+#user-action-1:hover {
+    border-color: red;
+}
+
+#user-action-2 {
+    position: fixed; 
+    top: 60px; 
+}
+#user-action-2:hover {
+    border-color: orange;
+}
+
+#user-action-3 {
+    position: fixed; 
+    top: 110px; 
+}
+#user-action-3:hover {
+    border-color: green;
+}
+
+#user-action-4 {
+    position: fixed; 
+    top: 160px; 
+}
+#user-action-4:hover {
+    border-color: blue;
+}
+
+#user-action-5 {
+    position: fixed; 
+    top: 210px; 
+}
+#user-action-5:hover {
+    border-color: red;
+}
+
+
+#back-action {
+    position: fixed; 
+    top: 210px; 
+}
+#back-action:hover {
+    border-color: green;
+}
+
+button {
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    left: 0px;
+    border-style: solid;
+    border-color: black;
+    border-left: 0px;
+    border-right-width: 10px;
+    transition: width .2s, border-color .4s;
+    outline: none;
+    box-shadow: none;
+    background-color: white;
+}
+
+button:hover {
+    width: 100px;
+}
